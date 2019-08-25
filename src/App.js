@@ -5,7 +5,7 @@ import GameBoard from './components/GameBoard.jsx'
 class App extends Component {
   render() {
     return (
-      <main>
+      <main className="app-area">
         <Header />
         <GameBoard />
       </main>
